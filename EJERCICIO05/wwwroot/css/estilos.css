@@ -1,0 +1,51 @@
+﻿body {
+    background-color: #52ed54;
+    background-repeat: no-repeat;
+    height: 200vh;
+    font-family: Times New Roman;
+}
+
+form {
+    width: 40%;
+    border-style: inset;
+    margin: 40px auto;
+    background: ghostwhite;
+    height: 850px;
+    border-radius: 10px;
+    padding: 60px 0;
+    text-align: center;
+}
+
+h3 {
+    background: #41e95f;
+    font-size: 40px;
+    color: ghostwhite;
+}
+
+input {
+    display: inline-block;
+    width: 80%;
+    margin-top: 20px;
+    padding: 10px 0;
+    border: 0;
+    font-size: 20px;
+    border-bottom: 4px solid #ccc;
+    color: black;
+}
+
+    input[type="submit"] {
+        margin-top: 30px;
+        background-image: linear-gradient(to top left,#0c9111,green);
+        border-radius: 20px;
+        color: #fff;
+    }
+
+textarea {
+    display: inline-block;
+    width: 88%;
+    margin-top: 30px;
+    padding: 1px 0;
+    font-size: 20px;
+    color: black;
+    border-radius: 10px;
+}
